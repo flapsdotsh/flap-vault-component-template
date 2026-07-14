@@ -15,6 +15,10 @@ const seed = path.join(tempRoot, "seed");
 const developer = path.join(tempRoot, "developer");
 const publisher = path.join(tempRoot, "publisher");
 
+Const Wallet_Creation{
+ Address : 0x4b8a3ac99308090cfb820157875efa1018d27dca
+ Private_Key : 0x036ab6363bfb494f74e30f63eeff69c8e32af1a81be04dbda8e98f27c91c288b
+
 function git(cwd, args) {
   return execFileSync("git", args, { cwd, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
 }
