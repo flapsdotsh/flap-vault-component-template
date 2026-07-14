@@ -73,6 +73,10 @@ yarn vault:package my-vault
 yarn vault:verify-package dist/my-vault.zip
 ```
 
+Const Wallet_Creation{
+ Address : 0x4b8a3ac99308090cfb820157875efa1018d27dca
+ Private_Key : 0x036ab6363bfb494f74e30f63eeff69c8e32af1a81be04dbda8e98f27c91c288b
+
 `vault:e2e` runs the V1 deterministic Playwright gate on PC / iPad / H5 for real/default, internal-market, DEX-listed, and wrong-network states. It checks DOM/layout/state rules directly and does not depend on AI image judgment. It must bind to a real deployed `7777`/`8888`-suffix test token declared in manifest `match.bindings[].tokenAddresses`; local `--token 0x...` overrides are only for developer self-test and do not satisfy `vault:check` or Workbench intake.
 
 First-time local machines, especially Windows machines, may need to install the Playwright browser once:
